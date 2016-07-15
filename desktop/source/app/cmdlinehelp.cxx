@@ -120,6 +120,7 @@ namespace desktop
         "          --convert-to pdf:writer_pdf_Export --outdir /home/user *.doc\n"\
         "          --convert-to \"html:XHTML Writer File:UTF8\" *.doc\n"\
         "          --convert-to \"txt:Text (encoded):UTF8\" *.doc\n"\
+        "      Tip: Combine with -env:UserInstallation=file:///tmp/uniqueid to run in isolation from GUI instances"\
         "--print-to-file [-printer-name printer_name] [--outdir output_dir] files\n"\
         "      Batch print files to file.\n"\
         "      If --outdir is not specified then current working dir is used as output_dir.\n"\
